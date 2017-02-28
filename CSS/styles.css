@@ -1,0 +1,36 @@
+body{
+	text-align: center;
+}
+
+header{
+	background-color: #111;
+}
+h1 {
+	height: 30px;
+	text: underline;
+	text: bold;
+	background-color: teal;
+	text-align: center;
+	margin: auto;
+	padding: 1em;
+}
+
+h2 {
+	text-align: center;
+	margin: auto;
+	padding: 1em;
+}
+
+.description {
+	text-align: center;
+}
+
+.cols {
+		display: inline-flex;
+		justify-content: center;
+		color: red;
+}
+
+.cols p {
+	background-color: blue;
+}
