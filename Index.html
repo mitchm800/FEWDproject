@@ -9,9 +9,9 @@
 
 <title>PageName</title>
 
+<!--  Links to Style Sheets; Normalize, Bootstrap (minified), any my own styles.css -->
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
-<!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 
@@ -21,12 +21,12 @@
 <body>
 	<header>
 		<div>
-			<img src="img/mcride2.jpg" class="headimage">
+		<!--	<img src="img/mcride2.jpg" class="headimage"> -->
+			<img src="img/fpo_image4.jpg" class="headimage">
 		
 		</div>
 
-		<div class="btn-group">
-			<!-- <button type="button" class="btn btn-default" id="HomeBtn"><a class="active" href="JavaScript:showOnlyOne('Home')">Home</a></button> -->
+		<div class="btn-group">	
 			<button href="Home" type="button" class="btn btn-default active" id="HomeBtn">Home</button>
 			<button href="GettingStarted" type="button" class="btn btn-default" id="GettingStartedBtn">Getting Started</button>
 			<button href="Gear" type="button" class="btn btn-default" id="GearBtn">Gear</button>
@@ -36,147 +36,157 @@
 
 	</header>
 
-
+<!--  Begin Page content divs -->
 
 	<div id="content">
-		<div  class="show" id="Home">
+		<div class="show" id="Home">
 
-			<div class="row">
-				<div id="BannerMessage">
-					<h1>Introduction to Motorcycling</h1>
+			<div class="container">
+
+				<div class="row">
+					<div id="BannerMessage">
+						<h1>Introduction to Motorcycling</h1>
+					</div>
 				</div>
+	
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<p>THis is the first page!!! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt molestie enim ac tempor. Nullam condimentum interdum augue nec imperdiet. Etiam viverra varius vehicula. Quisque tincidunt ornare sem vel egestas. Duis nec ullamcorper augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ornare urna a sodales semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc interdum vel purus quis venenatis. Aliquam cursus a nisl a blandit. Donec ac tincidunt urna, eget elementum tellus.</p>
+					</div>
+
+					<div class="col-xs-12 col-sm-4">
+						<p>Etiam iaculis odio eu metus viverra condimentum. Sed pharetra nunc nec ex tincidunt rhoncus. Suspendisse sapien leo, vulputate sed nisl nec, maximus lobortis mauris. Nulla vel cursus nisi. In hac habitasse platea dictumst. Praesent condimentum sed ex eu blandit. Sed interdum congue eros vitae ullamcorper. Integer leo orci, sodales in venenatis ac, suscipit sit amet mi. Duis finibus, lorem quis imperdiet tristique, orci dolor pellentesque nulla, vel ultricies quam eros quis quam.</p>
+					</div>
+				
+					<div class="col-xs-12 col-sm-4">
+						<p>Nam dictum diam eu magna venenatis finibus. Integer quis enim dui. Phasellus quis lacus magna. Praesent lacus metus, volutpat et tortor eget, bibendum accumsan metus. Pellentesque a vulputate libero. Vivamus vehicula eu mauris non sodales. Cras tincidunt lobortis eros, quis egestas massa rutrum vel. Phasellus et lorem et risus tristique elementum. Maecenas pellentesque ante vel ante sollicitudin ullamcorper. In tortor libero, congue sit amet pretium quis, auctor a lorem. Nulla fermentum nisl arcu, eget congue massa elementum ut. Nunc cursus pulvinar tellus, vitae pretium diam rutrum sit amet. Cras eget dolor sem.</p>
+					</div>
+				</div>
+
 			</div>
 
-			<div class="row">
-				<div class="col-sm-4">
-					THis is the first page!!! fjs  a djflkajsdllk fjaldsdjff  kja sdfkj kajdsf jajsd flkjalj f adlskfjalk;djfkjf d  fajkljsd fjklajs f;lj asdfj;kajsd fqportuqavlkanzckvna  fa[jsfjlkak  f jasidof jaslkdkjf huyw47yd  fahasdjfyq f upa8fj
-				</div>
-			
-				<div class="col-sm-4">
-					aksjdfkj asd flka;sdjf ajsdfajsd flkkj lajsdf lkjlaksjdf ja;sdjf j alkdsj flkajsdflkj alksdjf kajdff ;kajdsflkajsdfkj adsfj adsfj lkajdf lakdsjf laksd jflkakds fj;alksdj flakds jflaksdjflkasdj flasdj flkaj dsfkla jsdflka jdfslk jasdlfk jaldf j
-				</div>
-			
-				<div class="col-sm-4">
-					aksdjfkasdjfkajsflkajsdfkljaklsdfjlaksdjfkljkjklaksjdfkjasdf
-					sdfkajsdf;jadskfjalkdsjf
-					asa;sdjflkaksdjfkasjdflkjasdfljasdfj
-				</div>
-			</div>
 		</div>
 	
 		<div class="hidden" id="GettingStarted">
 
-			<div class="row">
-				<div id="BannerMessage">
-					<h1>Where to Start?</h1>
+			<div class="container">
+				<div class="row">
+					<div id="BannerMessage">
+						<h1>Where to Start?</h1>
+					</div>
 				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-sm-4">
-					This is the second page!!!   lsdjf fjs  a djflkajsdllk fjaldsdjff  kja sdfkj kajdsf jajsd flkjalj f adlskfjalk;djfkjf d  fajkljsd fjklajs f;lj asdfj;kajsd fqportuqavlkanzckvna  fa[jsfjlkak  f jasidof jaslkdkjf huyw47yd  fahasdjfyq f upa8fj
-				</div>
-		
-				<div class="col-sm-4">
-					aksjdfkj asd flka;sdjf ajsdfajsd flkkj lajsdf lkjlaksjdf ja;sdjf j alkdsj flkajsdflkj alksdjf kajdff ;kajdsflkajsdfkj adsfj adsfj lkajdf lakdsjf laksd jflkakds fj;alksdj flakds jflaksdjflkasdj flasdj flkaj dsfkla jsdflka jdfslk jasdlfk jaldf j
-				</div>
-		
-				<div class="col-sm-4">
-					aksdjfkasdjfkajsflkajsdfkljaklsdfjlaksdjfkljkjklaksjdfkjasdf
-					sdfkajsdf;jadskfjalkdsjf
-					asa;sdjflkaksdjfkasjdflkjasdfljasdfj
+				<div class="row">
+					<div class="col-sm-4">
+						<p>This is the second page!!!   Ut ultrices commodo lectus at placerat. Maecenas blandit tellus id magna pharetra aliquet. Proin scelerisque a orci sit amet porttitor. Maecenas tincidunt pellentesque ex sit amet rutrum. Etiam eleifend ac sapien sit amet tincidunt. Fusce in varius lacus. Ut a fringilla ligula. Proin ultricies libero eget justo aliquam, et imperdiet arcu malesuada. Sed ultrices non nunc in dapibus</p>
+					</div>
+			
+					<div class="col-sm-4">
+						<p>Mauris non odio enim. Proin condimentum venenatis sem at tristique. Aliquam euismod nisl lobortis, dictum elit nec, interdum tellus. Mauris dolor dui, ullamcorper aliquet magna at, porttitor semper augue. Suspendisse tempus mollis egestas. Quisque nec augue sem. Aenean varius purus a eros elementum, eget luctus metus hendrerit. Phasellus vitae leo nec nibh tempus commodo. Suspendisse in massa urna.</p>
+					</div>
+			
+					<div class="col-sm-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt molestie enim ac tempor. Nullam condimentum interdum augue nec imperdiet. Etiam viverra varius vehicula. Quisque tincidunt ornare sem vel egestas. Duis nec ullamcorper augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ornare urna a sodales semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc interdum vel purus quis venenatis. Aliquam cursus a nisl a blandit. Donec ac tincidunt urna, eget elementum tellus.</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	
 		<div class="hidden" id="Gear">
 
-			<div class="row">
-				<div id="BannerMessage">
-					<h1>Selecting Safety Gear</h1>
+			<div class="container">
+				<div class="row">
+					<div id="BannerMessage">
+						<h1>Selecting Safety Gear</h1>
+					</div>
 				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-sm-4">
-					This is the third page!!!   alsdjf fjs  a djflkajsdllk fjaldsdjff  kja sdfkj kajdsf jajsd flkjalj f adlskfjalk;djfkjf d  fajkljsd fjklajs f;lj asdfj;kajsd fqportuqavlkanzckvna  fa[jsfjlkak  f jasidof jaslkdkjf huyw47yd  fahasdjfyq f upa8fj
-				</div>
-		
-				<div class="col-sm-4">
-					aksjdfkj asd flka;sdjf ajsdfajsd flkkj lajsdf lkjlaksjdf ja;sdjf j alkdsj flkajsdflkj alksdjf kajdff ;kajdsflkajsdfkj adsfj adsfj lkajdf lakdsjf laksd jflkakds fj;alksdj flakds jflaksdjflkasdj flasdj flkaj dsfkla jsdflka jdfslk jasdlfk jaldf j
-				</div>
-		
-				<div class="col-sm-4">
-					aksdjfkasdjfkajsflkajsdfkljaklsdfjlaksdjfkljkjklaksjdfkjasdf
-					sdfkajsdf;jadskfjalkdsjf
-					asa;sdjflkaksdjfkasjdflkjasdfljasdfj
+	
+				<div class="row">
+					<div class="col-sm-4">
+						<p>This is the third page!!!   Etiam iaculis odio eu metus viverra condimentum. Sed pharetra nunc nec ex tincidunt rhoncus. Suspendisse sapien leo, vulputate sed nisl nec, maximus lobortis mauris. Nulla vel cursus nisi. In hac habitasse platea dictumst. Praesent condimentum sed ex eu blandit. Sed interdum congue eros vitae ullamcorper. Integer leo orci, sodales in venenatis ac, suscipit sit amet mi. Duis finibus, lorem quis imperdiet tristique, orci dolor pellentesque nulla, vel ultricies quam eros quis quam.</p>
+					</div>
+			
+					<div class="col-sm-4">
+						<p>Nam dictum diam eu magna venenatis finibus. Integer quis enim dui. Phasellus quis lacus magna. Praesent lacus metus, volutpat et tortor eget, bibendum accumsan metus. Pellentesque a vulputate libero. Vivamus vehicula eu mauris non sodales. Cras tincidunt lobortis eros, quis egestas massa rutrum vel. Phasellus et lorem et risus tristique elementum. Maecenas pellentesque ante vel ante sollicitudin ullamcorper. In tortor libero, congue sit amet pretium quis, auctor a lorem. Nulla fermentum nisl arcu, eget congue massa elementum ut. Nunc cursus pulvinar tellus, vitae pretium diam rutrum sit amet. Cras eget dolor sem.</p>
+					</div>
+			
+					<div class="col-sm-4">
+						<p>Ut ultrices commodo lectus at placerat. Maecenas blandit tellus id magna pharetra aliquet. Proin scelerisque a orci sit amet porttitor. Maecenas tincidunt pellentesque ex sit amet rutrum. Etiam eleifend ac sapien sit amet tincidunt. Fusce in varius lacus. Ut a fringilla ligula. Proin ultricies libero eget justo aliquam, et imperdiet arcu malesuada. Sed ultrices non nunc in dapibus.</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	
 		<div class="hidden" id="Learning">
 
-			<div class="row">
-				<div id="BannerMessage">
-					<h1>Learning to Ride</h1>
+			<div class="container">
+				<div class="row">
+					<div id="BannerMessage">
+						<h1>Learning to Ride</h1>
+					</div>
 				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-sm-4">
-					This is the fourth page!!!    fjs  a djflkajsdllk fjaldsdjff  kja sdfkj kajdsf jajsd flkjalj f adlskfjalk;djfkjf d  fajkljsd fjklajs f;lj asdfj;kajsd fqportuqavlkanzckvna  fa[jsfjlkak  f jasidof jaslkdkjf huyw47yd  fahasdjfyq f upa8fj
-				</div>
-		
-				<div class="col-sm-4">
-					aksjdfkj asd flka;sdjf ajsdfajsd flkkj lajsdf lkjlaksjdf ja;sdjf j alkdsj flkajsdflkj alksdjf kajdff ;kajdsflkajsdfkj adsfj adsfj lkajdf lakdsjf laksd jflkakds fj;alksdj flakds jflaksdjflkasdj flasdj flkaj dsfkla jsdflka jdfslk jasdlfk jaldf j
-				</div>
-		
-				<div class="col-sm-4">
-					aksdjfkasdjfkajsflkajsdfkljaklsdfjlaksdjfkljkjklaksjdfkjasdf
-					sdfkajsdf;jadskfjalkdsjf
-					asa;sdjflkaksdjfkasjdflkjasdfljasdfj
+	
+				<div class="row">
+					<div class="col-sm-4">
+						<p>This is the fourth page!!!    Mauris non odio enim. Proin condimentum venenatis sem at tristique. Aliquam euismod nisl lobortis, dictum elit nec, interdum tellus. Mauris dolor dui, ullamcorper aliquet magna at, porttitor semper augue. Suspendisse tempus mollis egestas. Quisque nec augue sem. Aenean varius purus a eros elementum, eget luctus metus hendrerit. Phasellus vitae leo nec nibh tempus commodo. Suspendisse in massa urna.</p>
+					</div>
+			
+					<div class="col-sm-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt molestie enim ac tempor. Nullam condimentum interdum augue nec imperdiet. Etiam viverra varius vehicula. Quisque tincidunt ornare sem vel egestas. Duis nec ullamcorper augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ornare urna a sodales semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc interdum vel purus quis venenatis. Aliquam cursus a nisl a blandit. Donec ac tincidunt urna, eget elementum tellus.</p>
+					</div>
+			
+					<div class="col-sm-4">
+						<p>Etiam iaculis odio eu metus viverra condimentum. Sed pharetra nunc nec ex tincidunt rhoncus. Suspendisse sapien leo, vulputate sed nisl nec, maximus lobortis mauris. Nulla vel cursus nisi. In hac habitasse platea dictumst. Praesent condimentum sed ex eu blandit. Sed interdum congue eros vitae ullamcorper. Integer leo orci, sodales in venenatis ac, suscipit sit amet mi. Duis finibus, lorem quis imperdiet tristique, orci dolor pellentesque nulla, vel ultricies quam eros quis quam.</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	
 		<div class="hidden" id="StarterBikes">
 
-			<div class="row">
-				<div id="BannerMessage">
-					<h1>Beginner Motorcycles</h1>
+			<div class="container">
+				<div class="row">
+					<div id="BannerMessage">
+						<h1>Beginner Motorcycles</h1>
+					</div>
 				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-sm-4">
-					This is the fifth page!!!   kalsdjf fjs  a djflkajsdllk fjaldsdjff  kja sdfkj kajdsf jajsd flkjalj f adlskfjalk;djfkjf d  fajkljsd fjklajs f;lj asdfj;kajsd fqportuqavlkanzckvna  fa[jsfjlkak  f jasidof jaslkdkjf huyw47yd  fahasdjfyq f upa8fj
-				</div>
-		
-				<div class="col-sm-4">
-					aksjdfkj asd flka;sdjf ajsdfajsd flkkj lajsdf lkjlaksjdf ja;sdjf j alkdsj flkajsdflkj alksdjf kajdff ;kajdsflkajsdfkj adsfj adsfj lkajdf lakdsjf laksd jflkakds fj;alksdj flakds jflaksdjflkasdj flasdj flkaj dsfkla jsdflka jdfslk jasdlfk jaldf j
-				</div>
-		
-				<div class="col-sm-4">
-					aksdjfkasdjfkajsflkajsdfkljaklsdfjlaksdjfkljkjklaksjdfkjasdf
-					sdfkajsdf;jadskfjalkdsjf
-					asa;sdjflkaksdjfkasjdflkjasdfljasdfj
+				<div class="row">
+					<div class="col-sm-4">
+						<p>This is the fifth page!!!   Nam dictum diam eu magna venenatis finibus. Integer quis enim dui. Phasellus quis lacus magna. Praesent lacus metus, volutpat et tortor eget, bibendum accumsan metus. Pellentesque a vulputate libero. Vivamus vehicula eu mauris non sodales. Cras tincidunt lobortis eros, quis egestas massa rutrum vel. Phasellus et lorem et risus tristique elementum. Maecenas pellentesque ante vel ante sollicitudin ullamcorper. In tortor libero, congue sit amet pretium quis, auctor a lorem. Nulla fermentum nisl arcu, eget congue massa elementum ut. Nunc cursus pulvinar tellus, vitae pretium diam rutrum sit amet. Cras eget dolor sem.</p>
+					</div>
+					
+					<div class="col-sm-4">
+						<p>Ut ultrices commodo lectus at placerat. Maecenas blandit tellus id magna pharetra aliquet. Proin scelerisque a orci sit amet porttitor. Maecenas tincidunt pellentesque ex sit amet rutrum. Etiam eleifend ac sapien sit amet tincidunt. Fusce in varius lacus. Ut a fringilla ligula. Proin ultricies libero eget justo aliquam, et imperdiet arcu malesuada. Sed ultrices non nunc in dapibus.</p>
+					</div>
+			
+					<div class="col-sm-4">
+						<p>Mauris non odio enim. Proin condimentum venenatis sem at tristique. Aliquam euismod nisl lobortis, dictum elit nec, interdum tellus. Mauris dolor dui, ullamcorper aliquet magna at, porttitor semper augue. Suspendisse tempus mollis egestas. Quisque nec augue sem. Aenean varius purus a eros elementum, eget luctus metus hendrerit. Phasellus vitae leo nec nibh tempus commodo. Suspendisse in massa urna.</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-
+<!--  End Page content divs 
 
 	<footer class="footer affix-bottom">
 		<div class="container">
 			<p>Copyright @Mitch_</p>
 		</div>
-	</footer>
+	</footer>  -->
 
+	  <div class="footer" data-role="footer" data-position="fixed">
+    <div>Copyright @Mitch_</div>
+  </div>
+
+<!--  Bootstrap links -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+ <!--  Link to App.js script for button functionality -->
     <script src="js/app.js"></script>
 </body>
 
