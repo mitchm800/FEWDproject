@@ -27,3 +27,18 @@ $("button").click(function(){
 	// Show only the Content Div that is selected
 	$("#" +Str).removeClass("hidden").addClass("show");
 })
+
+// Remove "show" class from content divs and from Home button
+$("a").click(function(){
+	//Remove the active class from the previously selected button
+	$("a").siblings().removeClass("active");
+	//add the active class to the new button
+	$(this).addClass("active");
+	//get ID of the selected content
+	var Str = $(this).attr("id");
+	Str = Str.slice(0, -3);
+	// Remove the "show" class from all of the Content Divs
+	$("#" + Str).siblings().removeClass("show").addClass("hidden");
+	// Show only the Content Div that is selected
+	$("#" +Str).removeClass("hidden").addClass("show");
+})

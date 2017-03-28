@@ -37,4 +37,17 @@ h2 {
 	padding-bottom: 3em;
 }
 
+@media (min-width: 768px) {
+	.nav {
+		display: none;
+	}
+}
 
+@media (max-width: 768px) {
+	.headimage {
+		max-width: 300px;
+	}
+	.btn-group {
+		display: none;
+	}
+}
