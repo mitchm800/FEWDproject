@@ -13,11 +13,26 @@ var LearningTxt = document.getElementById ("Learning");
 var StarterBikesTxt = document.getElementById ("StarterBikes");
 
 
-// Remove "show" class from content divs and from Home button
+// Remove "show" class from content divs and from Home button.  This is only visible in large screens
 $("button").click(function(){
 	//Remove the active class from the previously selected button
 	$("button").siblings().removeClass("active");
 	//add the active class to the new button
+	$(this).addClass("active");
+	//get ID of the selected content
+	var Str = $(this).attr("id");
+	Str = Str.slice(0, -3);
+	// Remove the "show" class from all of the Content Divs
+	$("#" + Str).siblings().removeClass("show").addClass("hidden");
+	// Show only the Content Div that is selected
+	$("#" +Str).removeClass("hidden").addClass("show");
+})
+
+// Remove "show" class from content divs and from Home nav anchor.  This is only visible in small screens
+$("a").click(function(){
+	//Remove the active class from the previously selected nav anchor
+	$("a").siblings().removeClass("active");
+	//add the active class to the new nav anchor
 	$(this).addClass("active");
 	//get ID of the selected content
 	var Str = $(this).attr("id");
